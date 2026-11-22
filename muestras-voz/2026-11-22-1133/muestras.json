@@ -1,0 +1,50 @@
+{
+  "texto": "¿Otra vez llamando a la barbería para pillar turno? ¡Se acabó! Con Chairio reservas en dos toques, te haces socio de tu barbería y te olvidas de pagar cada vez. Tu barbería de siempre, ahora en tu móvil. Chairio. Entra ya en chairio.es.",
+  "samples": [
+    {
+      "file": "01-elevenlabs-Roger - Laid-Back, Casual, Resonant.mp3",
+      "label": "ElevenLabs · Roger - Laid-Back, Casual, Resonant (de serie)",
+      "note": "multilingual v2"
+    },
+    {
+      "file": "02-elevenlabs-Sarah - Mature, Reassuring, Confident.mp3",
+      "label": "ElevenLabs · Sarah - Mature, Reassuring, Confident (de serie)",
+      "note": "multilingual v2"
+    },
+    {
+      "file": "03-elevenlabs-Laura - Enthusiast, Quirky Attitude.mp3",
+      "label": "ElevenLabs · Laura - Enthusiast, Quirky Attitude (de serie)",
+      "note": "multilingual v2"
+    },
+    {
+      "file": "04-elevenlabs-Charlie - Deep, Confident, Energetic.mp3",
+      "label": "ElevenLabs · Charlie - Deep, Confident, Energetic (de serie)",
+      "note": "multilingual v2"
+    },
+    {
+      "file": "05-openai-ash.mp3",
+      "label": "OpenAI · ash",
+      "note": "gpt-4o-mini-tts con dirección enérgica"
+    },
+    {
+      "file": "06-openai-verse.mp3",
+      "label": "OpenAI · verse",
+      "note": "gpt-4o-mini-tts con dirección enérgica"
+    },
+    {
+      "file": "07-openai-coral.mp3",
+      "label": "OpenAI · coral",
+      "note": "gpt-4o-mini-tts con dirección enérgica"
+    },
+    {
+      "file": "08-openai-ballad.mp3",
+      "label": "OpenAI · ballad",
+      "note": "gpt-4o-mini-tts con dirección enérgica"
+    },
+    {
+      "file": "09-openai-onyx.mp3",
+      "label": "OpenAI · onyx",
+      "note": "gpt-4o-mini-tts con dirección enérgica"
+    }
+  ]
+}
