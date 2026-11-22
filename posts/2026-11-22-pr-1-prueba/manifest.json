@@ -28,9 +28,9 @@
       "height": 6600
     }
   ],
-  "lufs": -19.6,
+  "lufs": -19.2,
   "qc": {
-    "duracion": 19.31,
+    "duracion": 15.25,
     "problemas": [],
     "storyboard": "storyboard.png",
     "musica": "trap.mp3"
