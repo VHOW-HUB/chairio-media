@@ -1,0 +1,32 @@
+{
+  "resumen": "Reserva cita en tu barbería desde el móvil en dos toques, sin llamar ni esperar.",
+  "publico": "clientes",
+  "pantallas": [
+    "visitante:/b/barberia-demo",
+    "cliente:/cuenta/citas"
+  ],
+  "feed": [
+    "feed-1.png",
+    "feed-2.png"
+  ],
+  "shots": [
+    {
+      "src": "shot-1.png",
+      "width": 1170,
+      "height": 6600
+    },
+    {
+      "src": "shot-2.png",
+      "width": 1170,
+      "height": 2532
+    }
+  ],
+  "lufs": -19.7,
+  "qc": {
+    "duracion": 15.21,
+    "problemas": [],
+    "storyboard": "storyboard.png",
+    "musica": "trap.mp3"
+  },
+  "carpeta": "posts/2026-11-22-siempre-reservar-sin-llamar"
+}
