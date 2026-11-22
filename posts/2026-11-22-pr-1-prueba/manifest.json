@@ -1,20 +1,31 @@
 {
   "resumen": "Reserva en tu barbería y hazte socio desde el móvil.",
   "publico": "clientes",
-  "pantallas": [
-    "visitante:/b/barberia-demo",
-    "cliente:/cuenta",
-    "panel:/panel/escaparate"
+  "pantallas": [],
+  "feed": [],
+  "shots": [
+    {
+      "src": "shot-1.png",
+      "width": 1170,
+      "height": 6600
+    },
+    {
+      "src": "shot-2.png",
+      "width": 1170,
+      "height": 3408
+    },
+    {
+      "src": "shot-3.png",
+      "width": 1170,
+      "height": 6600
+    }
   ],
-  "feed": [
-    "feed-1.png",
-    "feed-2.png",
-    "feed-3.png"
-  ],
-  "clips": [
-    "clip-1.webm",
-    "clip-2.webm",
-    "clip-3.webm"
-  ],
+  "lufs": -19.8,
+  "qc": {
+    "duracion": 15.21,
+    "problemas": [],
+    "storyboard": "storyboard.png",
+    "musica": "trap.mp3"
+  },
   "carpeta": "posts/2026-11-22-pr-1-prueba"
 }
