@@ -1,0 +1,20 @@
+{
+  "resumen": "Reserva en tu barbería y hazte socio desde el móvil.",
+  "publico": "clientes",
+  "pantallas": [
+    "visitante:/b/barberia-demo",
+    "cliente:/cuenta",
+    "panel:/panel/escaparate"
+  ],
+  "feed": [
+    "feed-1.png",
+    "feed-2.png",
+    "feed-3.png"
+  ],
+  "clips": [
+    "clip-1.webm",
+    "clip-2.webm",
+    "clip-3.webm"
+  ],
+  "carpeta": "posts/2026-11-22-pr-1-prueba"
+}
