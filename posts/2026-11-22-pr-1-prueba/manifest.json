@@ -1,8 +1,16 @@
 {
   "resumen": "Reserva en tu barbería y hazte socio desde el móvil.",
   "publico": "clientes",
-  "pantallas": [],
-  "feed": [],
+  "pantallas": [
+    "visitante:/b/barberia-demo",
+    "cliente:/cuenta",
+    "panel:/panel/escaparate"
+  ],
+  "feed": [
+    "feed-1.png",
+    "feed-2.png",
+    "feed-3.png"
+  ],
   "shots": [
     {
       "src": "shot-1.png",
@@ -20,9 +28,9 @@
       "height": 6600
     }
   ],
-  "lufs": -19.8,
+  "lufs": -19,
   "qc": {
-    "duracion": 15.21,
+    "duracion": 20.59,
     "problemas": [],
     "storyboard": "storyboard.png",
     "musica": "trap.mp3"
