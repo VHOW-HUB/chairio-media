@@ -24,23 +24,32 @@ const movil = (post, archivo) => {
 }
 
 // Una historia. Zona segura: el texto entre y=250 y y=1580 (arriba la barra de progreso, abajo «Enviar mensaje»).
-const historia = ({ tag, n, total, titulo, lima, texto, cta, captura, grande }) => `<!doctype html><html><head><meta charset="utf-8">
+// Una captura de la app (390 px de ancho a 2,5×, en capturas/) dentro de un móvil, cortada abajo con un degradado.
+const pantalla = (archivo) => {
+  const src = 'data:image/png;base64,' + readFileSync(join(AQUI, 'capturas', archivo)).toString('base64')
+  return `<div style="position:absolute;left:50%;top:${TOP_MOVIL}px;transform:translateX(-50%);width:640px;height:1385px;border-radius:72px;
+    border:12px solid #1c1c1f;box-shadow:0 0 0 2px rgba(255,255,255,.12),0 40px 140px rgba(212,255,58,.2);overflow:hidden;background:#000;
+    -webkit-mask-image:linear-gradient(#000 62%,transparent 92%)"><img src="${src}" style="width:100%;display:block"></div>`
+}
+const TOP_MOVIL = 700
+
+const historia = ({ tag, n, total, titulo, lima, texto, cta, captura, app, grande }) => `<!doctype html><html><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <style>*{margin:0;box-sizing:border-box}body{width:1080px;height:1920px;overflow:hidden;color:#f0f0f0;font-family:Inter,sans-serif;
 background:radial-gradient(circle at 85% 6%,rgba(212,255,58,.22),rgba(0,0,0,0) 42%),#000;position:relative}
 .d{font-family:Geist,Inter,sans-serif;font-weight:700;letter-spacing:-.045em}</style></head><body>
-<div style="position:absolute;inset:0;padding:250px 96px 0;display:flex;flex-direction:column;${captura ? '' : 'justify-content:center;padding-bottom:340px'}">
-  <div style="display:flex;align-items:center;justify-content:space-between;${captura ? '' : 'position:absolute;top:250px;left:96px;right:96px'}">
+<div style="position:absolute;inset:0;padding:250px 96px 0;display:flex;flex-direction:column;${captura || app ? '' : 'justify-content:center;padding-bottom:340px'}">
+  <div style="display:flex;align-items:center;justify-content:space-between;${captura || app ? '' : 'position:absolute;top:250px;left:96px;right:96px'}">
     <div style="display:flex;align-items:center;gap:18px">${logo(64)}<span style="font:500 28px Geist,Inter;letter-spacing:.14em;text-transform:uppercase;color:${LIMA}">${tag}</span></div>
     ${total > 1 ? `<span style="font:500 28px Geist,Inter;color:${TENUE}">${n}/${total}</span>` : ""}
   </div>
-  <div style="${captura ? 'margin-top:70px' : ''}">
-    <div class="d" style="font-size:${grande ? 132 : captura ? 84 : 104}px;line-height:1.02">${titulo}${lima ? `<br><span style="color:${LIMA}">${lima}</span>` : ''}</div>
-    ${texto ? `<div style="margin-top:40px;font-size:${captura ? 36 : 42}px;line-height:1.38;color:${GRIS}">${texto}</div>` : ''}
+  <div style="${captura || app ? 'margin-top:60px' : ''}">
+    <div class="d" style="font-size:${grande ? 132 : captura || app ? 76 : 104}px;line-height:1.02">${titulo}${lima ? `<br><span style="color:${LIMA}">${lima}</span>` : ''}</div>
+    ${texto ? `<div style="margin-top:40px;font-size:${captura || app ? 34 : 42}px;line-height:1.38;color:${GRIS}">${texto}</div>` : ''}
     ${cta ? `<div style="margin-top:64px"><span style="display:inline-block;background:${LIMA};color:${NEGRO};font:600 40px Geist,Inter;padding:26px 44px;border-radius:999px">${cta}</span></div>` : ''}
   </div>
 </div>
-${captura ? movil(...captura) : ''}
+${captura ? movil(...captura) : ''}${app ? pantalla(app) : ''}
 </body></html>`
 
 const CLI = '2026-11-22-pr-1-prueba', RES = '2026-11-22-siempre-reservar-sin-llamar'
@@ -69,6 +78,30 @@ const DESTACADAS = {
   ]],
   'como-va': ['Cómo va', [
     { titulo: 'Así funciona', lima: 'Chairio.', texto: 'Aquí van todas las funciones, una a una. 👉', grande: true },
+  ]],
+  // Funciones de la app, una por historia, con capturas de la barbería de demo. Van detrás de la portada de «Cómo va».
+  'como-va-funciones': ['Cómo va', [
+    { titulo: 'Para clientes', lima: 'Lo que puedes hacer.', texto: 'Desde buscar barbería hasta enseñar tu QR al llegar.', grande: true },
+    { titulo: 'Encuentra tu barbería', texto: 'Por nombre, ciudad o calle. Ves si está abierta y guardas tus favoritas con el ♡.', app: 'buscar2.png' },
+    { titulo: 'Su página, con todo', texto: 'Fotos, horario, teléfono, cómo llegar y sus servicios con precio.', app: 'ficha.png' },
+    { titulo: 'Elige qué te haces', texto: 'Puedes juntar varios servicios en la misma cita.', app: 'reservar.png' },
+    { titulo: 'Elige día y hora', texto: 'Los huecos libres al momento, hasta dos semanas vista.', app: 'reservar2.png' },
+    { titulo: 'Tu cita, a mano', texto: 'Cómo llegar, llamar, añadirla a tu calendario y cancelar gratis hasta 5 horas antes.', app: 'cita.png' },
+    { titulo: 'Al llegar, tu QR', texto: 'La barbería lo lee y listo. Cambia cada pocos segundos: una captura no sirve.', app: 'qr.png' },
+    { titulo: 'Hazte socio', texto: 'Eliges membresía y tus cortes van incluidos. Cada barbería pone sus planes.', app: 'socio2.png' },
+    { titulo: 'Tu membresía', texto: 'Cuándo se renueva, cuántos cortes llevas y la baja cuando quieras.', app: 'membresias.png' },
+    { titulo: 'Avisos en el móvil', texto: 'Te avisamos de tus citas y tu membresía. Y puedes instalar Chairio como una app.', app: 'avisos.png' },
+    { titulo: 'Para barberías', lima: 'Tu panel.', texto: 'Agenda, socios, equipo y tu página, desde el móvil.', grande: true },
+    { titulo: 'Tu barbería, de un vistazo', texto: 'Nada más entrar, las citas de hoy.', app: 'panel.png' },
+    { titulo: 'Agenda por día o semana', texto: 'Por barbero. Y apuntas a mano las citas que te llegan por teléfono.', app: 'agenda2.png' },
+    { titulo: 'Escanea el QR', texto: 'Con la cámara o un lector USB: la cita queda como «Asistió».', app: 'escanear.png' },
+    { titulo: 'Servicios y precios', texto: 'Duración, precio y cuáles entran en la membresía.', app: 'servicios.png' },
+    { titulo: 'Horario y cierres', texto: 'Tus horas y descansos. Y los festivos o vacaciones: ese día nadie puede reservar.', app: 'horario.png' },
+    { titulo: 'Tus socios', texto: 'Quién es socio, de qué membresía y cuántos cortes lleva este mes.', app: 'socios.png' },
+    { titulo: 'Tu equipo', texto: 'Con el plan Pro, cada barbero con su cuenta, su horario y sus vacaciones.', app: 'equipo.png' },
+    { titulo: 'Tu escaparate', texto: 'Las fotos que verán tus clientes en tu página.', app: 'escaparate.png' },
+    { titulo: 'Compártelo en Instagram', texto: 'Una imagen para tus historias con tu foto, tu enlace y tu QR.', app: 'escaparate2.png' },
+    { titulo: 'Pruébalo', lima: 'en chairio.es', texto: 'Clientes: reserva gratis en chairio.es<br>Barberías: chairio.es/para-barberias', cta: 'chairio.es' },
   ]],
   dudas: ['Dudas', [
     { titulo: '¿Tengo que pagar', lima: 'para reservar?', texto: 'No. Reservas gratis y pagas el corte en el local, a su precio de siempre. Las membresías son opcionales.' },

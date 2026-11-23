@@ -130,7 +130,7 @@ Ya hechas, en formato historia (1080 × 1920, JPG: es lo que acepta la API de In
 | Reservar | 5 | Portada, entra en tu barbería, elige hora, «Mis citas» con QR, es gratis |
 | Socios | 5 | Qué es, cuota al mes, tu cuenta, sin permanencia, hazte socio |
 | Barberías | 6 | Para ti, agenda, página propia, socios, 3 pasos, planes y precios |
-| Cómo va | 1 | Portada; detrás, comparte cada reel en tu historia y añádelo aquí |
+| Cómo va | 1 + 21 | Portada (`como-va/`) y las funciones, una por historia (`como-va-funciones/`): 9 para clientes y 9 para barberías, con capturas de la app de demo (`capturas/`) |
 | Dudas | 6 | Las preguntas frecuentes de la web y contacto |
 
 Cómo subirlas (las historias se publican y se añaden a destacadas a mano: la API no lo permite):
