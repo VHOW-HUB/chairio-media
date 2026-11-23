@@ -1,0 +1,15 @@
+{
+  "resumen": "¿Nadie coge tu llamada?",
+  "publico": "clientes",
+  "pantallas": [
+    "historia:llamar-sin-respuesta"
+  ],
+  "feed": [],
+  "historia": "llamar-sin-respuesta",
+  "qc": {
+    "duracion": 31.68,
+    "problemas": [],
+    "storyboard": "storyboard.png"
+  },
+  "carpeta": "posts/2026-11-23-historia-llamar-sin-respuesta"
+}
