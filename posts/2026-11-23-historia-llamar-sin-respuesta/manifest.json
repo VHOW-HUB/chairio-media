@@ -1,5 +1,5 @@
 {
-  "resumen": "¿Nadie coge tu llamada?",
+  "resumen": "Sin llamadas. Reserva en dos toques",
   "publico": "clientes",
   "pantallas": [
     "historia:llamar-sin-respuesta"
@@ -7,7 +7,7 @@
   "feed": [],
   "historia": "llamar-sin-respuesta",
   "qc": {
-    "duracion": 31.68,
+    "duracion": 25,
     "problemas": [],
     "storyboard": "storyboard.png"
   },
