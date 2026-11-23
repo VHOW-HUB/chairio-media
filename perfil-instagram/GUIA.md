@@ -123,7 +123,7 @@ Solo con capturas de las cuentas de demo, nunca con datos reales.
 
 ### Historias para rellenarlas (`historias/`)
 
-Ya hechas, en formato historia (1080 × 1920). Se generan con `node perfil-instagram/historias.mjs`. Los textos salen de las preguntas frecuentes de la web y de /para-barberias; las capturas, de posts ya publicados con la barbería de demo.
+Ya hechas, en formato historia (1080 × 1920, JPG: es lo que acepta la API de Instagram). Se generan con `node perfil-instagram/historias.mjs`. Los textos salen de las preguntas frecuentes de la web y de /para-barberias; las capturas, de posts ya publicados con la barbería de demo.
 
 | Destacada | Historias | Contenido |
 |---|---|---|

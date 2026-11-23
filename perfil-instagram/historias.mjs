@@ -87,7 +87,7 @@ for (const [carpeta, [tag, lista]] of Object.entries(DESTACADAS)) {
   for (const [i, h] of lista.entries()) {
     await page.setContent(historia({ ...h, tag, n: i + 1, total: lista.length }), { waitUntil: 'networkidle' })
     await page.evaluate(() => document.fonts.ready)
-    await page.screenshot({ path: join(AQUI, 'historias', carpeta, `${String(i + 1).padStart(2, '0')}.png`) })
+    await page.screenshot({ path: join(AQUI, 'historias', carpeta, `${String(i + 1).padStart(2, '0')}.jpg`), type: 'jpeg', quality: 92 })
   }
   console.log('✓', carpeta, lista.length)
 }
