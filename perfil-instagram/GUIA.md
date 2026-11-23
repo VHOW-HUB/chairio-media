@@ -121,6 +121,25 @@ Portadas en `destacadas/`. Para cada una: sube una historia, añádela a destaca
 
 Solo con capturas de las cuentas de demo, nunca con datos reales.
 
+### Historias para rellenarlas (`historias/`)
+
+Ya hechas, en formato historia (1080 × 1920). Se generan con `node perfil-instagram/historias.mjs`. Los textos salen de las preguntas frecuentes de la web y de /para-barberias; las capturas, de posts ya publicados con la barbería de demo.
+
+| Destacada | Historias | Contenido |
+|---|---|---|
+| Reservar | 5 | Portada, entra en tu barbería, elige hora, «Mis citas» con QR, es gratis |
+| Socios | 5 | Qué es, cuota al mes, tu cuenta, sin permanencia, hazte socio |
+| Barberías | 6 | Para ti, agenda, página propia, socios, 3 pasos, planes y precios |
+| Cómo va | 1 | Portada; detrás, comparte cada reel en tu historia y añádelo aquí |
+| Dudas | 6 | Las preguntas frecuentes de la web y contacto |
+
+Cómo subirlas (las historias se publican y se añaden a destacadas a mano: la API no lo permite):
+1. Sube las de una destacada **en orden** (01, 02…) como historias.
+2. En la **última** de cada una pon un **sticker de enlace** encima del botón lima: `chairio.es` en Reservar, Socios y Dudas; `chairio.es/para-barberias` en Barberías (con las UTM de los enlaces de la biografía, cambiando `campaign=bio` por `campaign=destacadas`).
+3. Pulsa «Destacar» → elige la destacada. En las siguientes, «Destacar» → la misma.
+4. «Cómo va»: sube la portada y después, en cada reel publicado, «Compartir» → «Añadir a tu historia» → destacar en «Cómo va». Haz lo mismo con cada reel nuevo de la automatización.
+5. Si las subes todas el mismo día, reparte: Instagram muestra las historias en cola a tus seguidores y 23 seguidas cansan. Puedes archivarlas (se quedan en destacadas) o subirlas en dos o tres días.
+
 ---
 
 ## 7. Posts fijados (los 3 de arriba del perfil)
@@ -172,6 +191,6 @@ Da de alta tu barbería en chairio.es/para-barberias
 - [ ] Autenticación en dos pasos y códigos de recuperación
 - [ ] Preguntas frecuentes y respuestas guardadas en mensajes
 - [ ] Filtros de comentarios
-- [ ] 5 destacadas con portada
+- [ ] 5 destacadas con portada y sus historias (`historias/`)
 - [ ] 3 posts fijados
 - [ ] (Web) Enlace a Instagram en el pie de chairio.es y en los datos estructurados (`sameAs`), para SEO
