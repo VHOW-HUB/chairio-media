@@ -1,0 +1,22 @@
+{
+  "resumen": "¿Ocho brazos? Mejor Chairio",
+  "publico": "barberias",
+  "pantallas": [
+    "historia:el-barbero-pulpo"
+  ],
+  "feed": [],
+  "historia": "el-barbero-pulpo",
+  "qc": {
+    "duracion": 23.2,
+    "problemas": [],
+    "storyboard": "storyboard.png",
+    "musica": "house-lets-move.mp3",
+    "musicaVolumen": 0.112
+  },
+  "escucha": {
+    "ok": true,
+    "entendido": 1,
+    "oido": "¿Te gustaría tener ocho brazos? Sergio sueña que tiene ocho brazos. Con uno corta, sin pausa. Con otro coge el teléfono. Con otro apunta citas en papel. Con otro cobra con desgana. Otro atiende mensajes sin parar. Se despierta. Está agotado. Con Chairio, los clientes reservan solos. Las citas entran directas en la agenda. Por semana y por barbero. Da de alta tu barbería en Chairio.es para barberías."
+  },
+  "carpeta": "posts/2026-11-25-historia-el-barbero-pulpo"
+}
