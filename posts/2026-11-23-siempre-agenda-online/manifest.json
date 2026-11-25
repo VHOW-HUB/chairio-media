@@ -1,0 +1,32 @@
+{
+  "resumen": "Tu agenda de la barbería, online y siempre al día: tus clientes reservan solos.",
+  "publico": "barberias",
+  "pantallas": [
+    "panel:/panel",
+    "panel:/panel/agenda"
+  ],
+  "feed": [
+    "feed-1.png",
+    "feed-2.png"
+  ],
+  "shots": [
+    {
+      "src": "shot-1.png",
+      "width": 1170,
+      "height": 5727
+    },
+    {
+      "src": "shot-2.png",
+      "width": 1170,
+      "height": 4593
+    }
+  ],
+  "lufs": -18,
+  "qc": {
+    "duracion": 16.64,
+    "problemas": [],
+    "storyboard": "storyboard.png",
+    "musica": "trap-electro-vibes.mp3"
+  },
+  "carpeta": "posts/2026-11-23-siempre-agenda-online"
+}

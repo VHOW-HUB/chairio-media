@@ -1,0 +1,38 @@
+{
+  "resumen": "Hazte socio de tu barbería con una cuota al mes y olvídate de pagar cada corte.",
+  "publico": "clientes",
+  "pantallas": [
+    "visitante:/b/barberia-demo",
+    "cliente:/cuenta/membresias"
+  ],
+  "feed": [
+    "feed-1.png",
+    "feed-2.png"
+  ],
+  "shots": [
+    {
+      "src": "shot-1.png",
+      "width": 1170,
+      "height": 6600
+    },
+    {
+      "src": "shot-2.png",
+      "width": 1170,
+      "height": 2532
+    }
+  ],
+  "lufs": -18.6,
+  "escucha": {
+    "ok": true,
+    "entendido": 0.92,
+    "oido": "¿Listo de pagar cada corte? Hazte socio con Chairio. Pagas una cuota al mes y reservas como siempre desde tu cuenta. Reserva en Chairio Pies."
+  },
+  "qc": {
+    "duracion": 13.33,
+    "problemas": [],
+    "storyboard": "storyboard.png",
+    "musica": "trap-electro-vibes.mp3",
+    "musicaVolumen": 0.087
+  },
+  "carpeta": "posts/2026-11-24-siempre-hazte-socio"
+}
