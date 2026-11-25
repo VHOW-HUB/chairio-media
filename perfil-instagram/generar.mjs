@@ -53,7 +53,7 @@ const PIEZAS = {
     base(1080, 1920, centro(svg, 'background:radial-gradient(circle at 50% 50%,rgba(212,255,58,.16),rgba(0,0,0,0) 38%),#000'))]])),
   'fijados/1-que-es-chairio.png': [1080, 1350, fijado({ eyebrow: 'Qué es Chairio', l1: 'Tu barbería de siempre,', l2: 'con cuota fija.', sub: 'Reservas tu turno desde el móvil y, si quieres, te haces socio de tu barbería con una cuota al mes.', cta: 'chairio.es' })],
   'fijados/2-clientes.png': [1080, 1350, fijado({ eyebrow: 'Para clientes', l1: 'Reserva sin llamar.', l2: 'En dos toques.', sub: 'Eliges barbería, servicio y hora. Tu cita queda en «Mis citas» con su QR. Gratis.', cta: 'Reserva en chairio.es' })],
-  'fijados/3-barberias.png': [1080, 1350, fijado({ eyebrow: 'Para barberías', l1: 'Agenda, socios', l2: 'y tu página propia.', sub: 'Reservas online, membresías con cobro mensual y tu QR para compartir. Planes desde 14,99 € al mes + IVA.', cta: 'chairio.es/para-barberias' })],
+  'fijados/3-barberias.png': [1080, 1350, fijado({ eyebrow: 'Para barberías', l1: 'Agenda, socios', l2: 'y tu página propia.', sub: 'Reservas online, membresías con cobro mensual y tu QR para compartir. Planes desde 12,99 € al mes + IVA.', cta: 'chairio.es/para-barberias' })],
 }
 
 const browser = await chromium.launch()

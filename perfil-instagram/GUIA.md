@@ -39,7 +39,7 @@ Instagram la recorta en círculo; la silla está centrada para que no se corte.
 ```
 💈 Reserva en tu barbería sin llamar
 ✂️ Hazte socio: tus cortes con cuota al mes
-💼 ¿Barbería? Desde 14,99 €/mes + IVA
+💼 ¿Barbería? Desde 12,99 €/mes + IVA
 📍 Murcia 👇
 ```
 
@@ -48,7 +48,7 @@ Alternativas:
 ```
 Tu barbería de siempre, con cuota fija 💈
 Reserva sin llamar · Hazte socio
-¿Tienes barbería? Desde 14,99 €/mes + IVA
+¿Tienes barbería? Desde 12,99 €/mes + IVA
 📍 Murcia 👇
 ```
 
@@ -115,7 +115,7 @@ Portadas en `destacadas/`. Para cada una: sube una historia, añádela a destaca
 |---|---|---|---|
 | 1 | Reservar | `reservar.png` | La reserva paso a paso con las capturas de demo del reel ya publicado. |
 | 2 | Socios | `socios.png` | Qué es ser socio: cuota al mes, cortes incluidos, sin permanencia. |
-| 3 | Barberías | `barberias.png` | Para dueños: agenda, membresías, página propia y QR. Planes desde 14,99 € + IVA. |
+| 3 | Barberías | `barberias.png` | Para dueños: agenda, membresías, página propia y QR. Planes desde 12,99 € + IVA. |
 | 4 | Cómo va | `como-va.png` | Los reels de funciones (los de la automatización). |
 | 5 | Dudas | `dudas.png` | Las preguntas frecuentes de arriba, una por historia. |
 
@@ -172,7 +172,7 @@ Reserva en chairio.es
 ```
 ¿Tienes barbería? Esto es para ti ✂️
 
-Reservas online, membresías con cobro mensual para tus socios y tu página propia con QR para compartir. Crear la cuenta y preparar tu página es gratis; los planes van desde 14,99 € al mes + IVA.
+Reservas online, membresías con cobro mensual para tus socios y tu página propia con QR para compartir. Crear la cuenta y preparar tu página es gratis; los planes van desde 12,99 € al mes + IVA.
 
 Da de alta tu barbería en chairio.es/para-barberias
 

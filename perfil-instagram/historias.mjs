@@ -74,7 +74,7 @@ const DESTACADAS = {
     { titulo: 'Tu página propia', texto: 'Con tus fotos y tu QR para compartir. Sales en el buscador de Chairio.', captura: [CLI, 'feed-3.png'] },
     { titulo: 'Socios con cuota', lima: 'cada mes.', texto: 'Ofrece membresías y cóbralas con Stripe: ingresos fijos todos los meses.' },
     { titulo: 'En 3 pasos', texto: '1. Creas tu cuenta y preparas tu página (gratis).<br>2. Activas tu plan y conectas Stripe.<br>3. La revisamos y la publicamos.' },
-    { titulo: 'Básico 14,99 €', lima: 'Pro 19,99 €', texto: 'Al mes, IVA no incluido. En Pro, 9,99 € más por cada barbero.', cta: 'chairio.es/para-barberias' },
+    { titulo: 'Básico 12,99 €', lima: 'Pro 17,99 €', texto: 'Al mes, IVA no incluido. En Pro, 7,99 € más por cada barbero.', cta: 'chairio.es/para-barberias' },
   ]],
   'como-va': ['Cómo va', [
     { titulo: 'Así funciona', lima: 'Chairio.', texto: 'Aquí van todas las funciones, una a una. 👉', grande: true },
