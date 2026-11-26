@@ -40,7 +40,7 @@ Instagram la recorta en círculo; la silla está centrada para que no se corte.
 💈 Reserva en tu barbería sin llamar
 ✂️ Hazte socio: tus cortes con cuota al mes
 💼 ¿Barbería? Desde 12,99 €/mes + IVA
-📍 Murcia 👇
+📍 Cartagena 👇
 ```
 
 Alternativas:
@@ -49,14 +49,14 @@ Alternativas:
 Tu barbería de siempre, con cuota fija 💈
 Reserva sin llamar · Hazte socio
 ¿Tienes barbería? Desde 12,99 €/mes + IVA
-📍 Murcia 👇
+📍 Cartagena 👇
 ```
 
 ```
 Reserva tu corte en dos toques 📅
 Hazte socio de tu barbería ✂️
 Para barberías: agenda, socios y tu página
-📍 Murcia 👇
+📍 Cartagena 👇
 ```
 
 Las tres cumplen la guía de estilo: tuteo, todo en presente, sin precios de membresía (los pone cada barbería) y sin prometer nada que la app no haga.
@@ -154,7 +154,7 @@ Con Chairio reservas tu turno sin llamar y, si quieres, te haces socio de tu bar
 
 Reserva en chairio.es
 
-#chairio #barberia #barbershop #barbero #cortedepelo #murcia #barberiamurcia #regiondemurcia
+#chairio #barberia #barbershop #barbero #cortedepelo #cartagena #barberiacartagena #regiondemurcia
 ```
 
 **2 · `2-clientes.png`**
@@ -165,7 +165,7 @@ Eliges barbería, servicio y hora en dos toques. Tu cita queda en «Mis citas» 
 
 Reserva en chairio.es
 
-#chairio #barberia #barbershop #barbero #cortedepelo #murcia #barberiamurcia #regiondemurcia #citas
+#chairio #barberia #barbershop #barbero #cortedepelo #cartagena #barberiacartagena #regiondemurcia #citas
 ```
 
 **3 · `3-barberias.png`**
@@ -176,7 +176,7 @@ Reservas online, membresías con cobro mensual para tus socios y tu página prop
 
 Da de alta tu barbería en chairio.es/para-barberias
 
-#chairio #barberia #barbershop #barbero #barberiamurcia #murcia #regiondemurcia #negociolocal
+#chairio #barberia #barbershop #barbero #barberiacartagena #cartagena #regiondemurcia #negociolocal
 ```
 
 ---
