@@ -1,0 +1,31 @@
+{
+  "resumen": "En chairio.es/para-barberias se puede ver Chairio por dentro con pantallas reales y calcular lo que te llegaría con tus socios.",
+  "publico": "barberias",
+  "pantallas": [
+    "visitante:/para-barberias"
+  ],
+  "feed": [
+    "feed-1.png"
+  ],
+  "shots": [
+    {
+      "src": "shot-1.png",
+      "width": 1170,
+      "height": 6600
+    }
+  ],
+  "lufs": -19.9,
+  "escucha": {
+    "ok": true,
+    "entendido": 0.93,
+    "oido": "¿Quieres ver cómo funciona Chirio por dentro? Mira la demo con pantallas reales y usa la calculadora para ver lo que llega al banco con tus socios. Chirio empieza en Cartagena. Da de alta tu barbería en chirio.es para barberias."
+  },
+  "qc": {
+    "duracion": 17.41,
+    "problemas": [],
+    "storyboard": "storyboard.png",
+    "musica": "trap-electro-vibes.mp3",
+    "musicaVolumen": 0.072
+  },
+  "carpeta": "posts/2026-11-26-pr-33"
+}
