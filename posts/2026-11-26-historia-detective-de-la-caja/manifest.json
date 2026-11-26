@@ -1,0 +1,22 @@
+{
+  "resumen": "La caja no cuadraba",
+  "publico": "barberias",
+  "pantallas": [
+    "historia:detective-de-la-caja"
+  ],
+  "feed": [],
+  "historia": "detective-de-la-caja",
+  "qc": {
+    "duracion": 37.5,
+    "problemas": [],
+    "storyboard": "storyboard.png",
+    "musica": "house-lets-move.mp3",
+    "musicaVolumen": 0.069
+  },
+  "escucha": {
+    "ok": true,
+    "entendido": 0.99,
+    "oido": "La caja no cuadraba, llovía y la gabardina pesaba. Él, detective, olía a café frío. Las cuentas bailaban en la libreta. Testigos, sillas vacías, toallas frías y clientes que venían cuando les daba. Nadie fichaba, ni pagaba fijo, claro. No era novela negra, era la historia de una barbería. Nacho, el dueño, mira su agenda. Cuenta turnos con post-its y paciencia. Llamadas perdidas y horas muertas. Necesitaba un truco nuevo y fiable. Saca el móvil y abre la app. En la pantalla de Chairio ves quién es socio y su membresía. La barbería cobra la cuota cada mes y así tienes socios que vuelven. Da de alta tu barbería en chairio.es para barberias."
+  },
+  "carpeta": "posts/2026-11-26-historia-detective-de-la-caja"
+}
