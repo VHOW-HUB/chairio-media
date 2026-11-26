@@ -1,0 +1,22 @@
+{
+  "resumen": "¿Arbusto antes de la boda?",
+  "publico": "clientes",
+  "pantallas": [
+    "historia:boda-manana"
+  ],
+  "feed": [],
+  "historia": "boda-manana",
+  "qc": {
+    "duracion": 38.4,
+    "problemas": [],
+    "storyboard": "storyboard.png",
+    "musica": "house-lets-move.mp3",
+    "musicaVolumen": 0.069
+  },
+  "escucha": {
+    "ok": true,
+    "entendido": 1,
+    "oido": "¿Te miras y pareces un arbusto? Es la noche antes de la boda, claro. Carlos entra al baño en pijama, dormido. Se acerca al espejo. Traga saliva. Temblando. Imagina fotos familiares con pelo de plantas. Pánico total. Gira en círculos. Grita. Agarra las tijeras del cajón. Gran idea. No. Intento fallido. Raya asimétrica. Horror mayúsculo. Llama a la barbería. Contesta el buzón larguísimo. Hora de usar el móvil con desesperada esperanza. Mira a Chairio. Elige el día y ves horas libres. Toca una hora libre. Confirmado en dos toques. Al día siguiente, traje. Sonrisa. Pelo perfecto. Aplausos. En la pantalla de Chairio, eliges el día y tocas la hora libre. Reserva en Chairio.es."
+  },
+  "carpeta": "posts/2026-11-26-historia-boda-manana"
+}
