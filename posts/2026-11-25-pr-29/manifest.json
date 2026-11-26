@@ -1,0 +1,31 @@
+{
+  "resumen": "Los planes para barberías bajan de precio: desde 12,99 € al mes + IVA, y 7,99 € por cada barbero adicional en el plan Pro.",
+  "publico": "barberias",
+  "pantallas": [
+    "visitante:/para-barberias"
+  ],
+  "feed": [
+    "feed-1.png"
+  ],
+  "shots": [
+    {
+      "src": "shot-1.png",
+      "width": 1170,
+      "height": 6600
+    }
+  ],
+  "lufs": -20.5,
+  "escucha": {
+    "ok": true,
+    "entendido": 0.9,
+    "oido": "¿Quieres pagar menos por la gestión de tu barbería? Chirio baja los planes. Básico, 12,99 euro. Pro, 17,99. Y barbero adicional, 7,99. Sin IVA. Ejecuta ENV. File, Care, ENV. Producción, NPM Run Stripe Catalogo. Da de alta tu barbería en chirio.es para barberías."
+  },
+  "qc": {
+    "duracion": 26.54,
+    "problemas": [],
+    "storyboard": "storyboard.png",
+    "musica": "edm-cat-walk.mp3",
+    "musicaVolumen": 0.123
+  },
+  "carpeta": "posts/2026-11-25-pr-29"
+}
