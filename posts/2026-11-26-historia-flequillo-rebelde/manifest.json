@@ -1,0 +1,22 @@
+{
+  "resumen": "Mi flequillo tiene vida propia",
+  "publico": "clientes",
+  "pantallas": [
+    "historia:flequillo-rebelde"
+  ],
+  "feed": [],
+  "historia": "flequillo-rebelde",
+  "qc": {
+    "duracion": 32.2,
+    "problemas": [],
+    "storyboard": "storyboard.png",
+    "musica": "house-lets-move.mp3",
+    "musicaVolumen": 0.077
+  },
+  "escucha": {
+    "ok": true,
+    "entendido": 0.96,
+    "oido": "¿Tu flequillo te está boicoteando el día? Lucía llega a la oficina contenta. El flequillo se le cae y tapa ojos. En la reunión, el flequillo aplaude solo. Se mete en su café sin pedir permiso. Saluda a desconocidos por la calle. Lucía intenta sujetarlo con horquillas. El flequillo se escapa y se ríe. Prueba una cinta. No hay manera. Una mañana, el flequillo se niega a salir. Lucía decide. ¡Hay que cortarlo! Saca el móvil y abre Shireo. Elige servicio, día y toca una hora libre. En Shireo, elige corte. Se selecciona el día y toca una hora libre. Recepa en shireo.es"
+  },
+  "carpeta": "posts/2026-11-26-historia-flequillo-rebelde"
+}
