@@ -1,0 +1,22 @@
+{
+  "resumen": "¿Te suena esto en la barbería?",
+  "publico": "barberias",
+  "pantallas": [
+    "historia:telefono-sin-parar"
+  ],
+  "feed": [],
+  "historia": "telefono-sin-parar",
+  "qc": {
+    "duracion": 37.4,
+    "problemas": [],
+    "storyboard": "storyboard.png",
+    "musica": "house-lets-move.mp3",
+    "musicaVolumen": 0.068
+  },
+  "escucha": {
+    "ok": true,
+    "entendido": 1,
+    "oido": "¿A quién no le pasa esto? Javier empieza un degradado perfecto. El cliente se relaja y charla. Suena el teléfono. Una primera llamada. Suena otra vez. Insiste el móvil. Javier duda. Cortar o contestar ahora. Contesta y deja el trabajo a medias. El cliente se enfada. Se mueve. Pierde la reserva que tenía programada. Otro cliente cancela la cita enfadado. La agenda es un caos sin orden. Javier ya no da abasto diario. Busca una solución simple y real. Javier prueba Chairio. Respira tranquilo. En Chairio ves la agenda por semana y por barbero. Las citas entran solas en la agenda y aparecen ordenadas por día. Da de alta tu barbería en chairio.es para barberias."
+  },
+  "carpeta": "posts/2026-11-27-historia-telefono-sin-parar"
+}
