@@ -1,0 +1,22 @@
+{
+  "resumen": "Adiós a las citas solapadas",
+  "publico": "barberias",
+  "pantallas": [
+    "historia:dos-barberias-iguales"
+  ],
+  "feed": [],
+  "historia": "dos-barberias-iguales",
+  "qc": {
+    "duracion": 39.3,
+    "problemas": [],
+    "storyboard": "storyboard.png",
+    "musica": "house-lets-move.mp3",
+    "musicaVolumen": 0.068
+  },
+  "escucha": {
+    "ok": true,
+    "entendido": 0.99,
+    "oido": "¿Otra vez citas solapadas? Su gemelo sonríe, todo en calma. Se plantan dos clientes a la vez. Entra un cliente, puntual como siempre. Apunta en la libreta con la mano. Nada se solapa, todo fluye. Gente esperando, cola hasta la puerta. Los habituales son socios, cuota mensual. Caras largas, clientes impacientes. Silencio cómodo, ni una espera. Marca, suelga, vuelve a apuntar. Se da cuenta, hace falta cambiar. Decide probar otra forma de gestionar. En Chairio se ve la agenda de la semana por barbero, con citas ordenadas por día y hora. Los clientes reservan desde el móvil y los socios pagan cuota mensual. Él lo controla todo desde su panel. Da de alta tu barbería en Chairio.es para barberias."
+  },
+  "carpeta": "posts/2026-11-27-historia-dos-barberias-iguales"
+}
