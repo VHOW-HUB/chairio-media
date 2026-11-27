@@ -1,5 +1,5 @@
 {
-  "resumen": "¿Te suena esto en la barbería?",
+  "resumen": "Teléfono en mitad del degradado",
   "publico": "barberias",
   "pantallas": [
     "historia:telefono-sin-parar"
@@ -7,7 +7,7 @@
   "feed": [],
   "historia": "telefono-sin-parar",
   "qc": {
-    "duracion": 37.4,
+    "duracion": 36.6,
     "problemas": [],
     "storyboard": "storyboard.png",
     "musica": "house-lets-move.mp3",
@@ -15,8 +15,8 @@
   },
   "escucha": {
     "ok": true,
-    "entendido": 1,
-    "oido": "¿A quién no le pasa esto? Javier empieza un degradado perfecto. El cliente se relaja y charla. Suena el teléfono. Una primera llamada. Suena otra vez. Insiste el móvil. Javier duda. Cortar o contestar ahora. Contesta y deja el trabajo a medias. El cliente se enfada. Se mueve. Pierde la reserva que tenía programada. Otro cliente cancela la cita enfadado. La agenda es un caos sin orden. Javier ya no da abasto diario. Busca una solución simple y real. Javier prueba Chairio. Respira tranquilo. En Chairio ves la agenda por semana y por barbero. Las citas entran solas en la agenda y aparecen ordenadas por día. Da de alta tu barbería en chairio.es para barberias."
+    "entendido": 0.98,
+    "oido": "¿Te suena el móvil justo en mitad de un corte? Este es Javier, barbero de toda la vida. Está con un degradado que le está quedando perfecto. Y justo entonces suena el teléfono. Deja la máquina, se limpia las manos y contesta. Es alguien que quiere cita para el viernes. Mientras, el cliente espera con medio pelo cortado. Vuelve al corte y vuelve a sonar. Esta vez no lo coge y ese cliente se va a otra barbería. Cada llamada perdida es una cita perdida hasta que prueba otra forma de dar citas. Ahora corta tranquilo, sin interrupciones. Con Chayrio, sus clientes reservan solos desde el móvil y las citas entran directas en su agenda, por día o por semana. Da de alta tu barbería en chayrio.es."
   },
   "carpeta": "posts/2026-11-27-historia-telefono-sin-parar"
 }
