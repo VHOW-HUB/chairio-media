@@ -1,5 +1,5 @@
 {
-  "resumen": "¿Dos clientes a la vez? No más",
+  "resumen": "Mismo talento, distinta organización",
   "publico": "barberias",
   "pantallas": [
     "historia:dos-barberias-iguales"
@@ -7,16 +7,16 @@
   "feed": [],
   "historia": "dos-barberias-iguales",
   "qc": {
-    "duracion": 35.7,
+    "duracion": 34.8,
     "problemas": [],
     "storyboard": "storyboard.png",
     "musica": "house-lets-move.mp3",
-    "musicaVolumen": 0.067
+    "musicaVolumen": 0.069
   },
   "escucha": {
     "ok": true,
-    "entendido": 1,
-    "oido": "Dos barberías. Misma calle, mismas tijeras. Javi y Dani son gemelos y pelan de lujo. Pero mira la barbería de Javi. Lo apunta todo en una libreta. El teléfono no para mientras corta. Dos clientes llegan a la misma hora. Gente de pie y cola hasta la puerta. Los clientes se cansan de esperar. Ahora, la barbería de Dani. Cada cliente entra a su hora. Nadie espera. Nadie se pisa. Sus fijos son socios. Les sale más a cuenta. La diferencia, no son las tijeras. Dani usa Chairio. Sus clientes reservan desde el móvil en los huecos libres y él ve toda la agenda de un vistazo. Da de alta tu barbería en Chairio.es."
+    "entendido": 0.97,
+    "oido": "Dos barberías. Misma calle. Mismas tijeras. Javi y Dani son gemelos y pelan de lujo. Pero mira la barbería de Javi. Lo apunta todo en una libreta. El teléfono no para mientras corta. Dos clientes llegan a la misma hora. Gente de pie y cola hasta la puerta. Los clientes se cansan de esperar. Ahora, la barbería de Dani. Cada cliente entra a su hora. Nadie espera. Nadie se pisa. Sus fijos son socios. Les sale más a cuenta. ¿La diferencia? No son las tijeras. Dani usa Chairio. Sus clientes reservan desde el móvil en los huecos libres y él ve toda la agenda de un vistazo. Da de alto la barbería en Chairio S."
   },
   "carpeta": "posts/2026-11-27-historia-dos-barberias-iguales"
 }
